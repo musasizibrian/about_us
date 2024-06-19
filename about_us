@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Our Company</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#" id="about-us-btn">About Us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Welcome to Our Company</h2>
+            <p>We are glad to have you here. Learn more about us by clicking the "About Us" link.</p>
+        </section>
+    </main>
+
+    <!-- About Us Modal -->
+    <div id="about-us-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>About Us</h2>
+            <p>Our company is dedicated to providing the best service in the industry. We have been in business for over 10 years and have a proven track record of success.</p>
+            <p>Our team consists of experienced professionals who are passionate about their work and committed to delivering outstanding results.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
